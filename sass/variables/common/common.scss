@@ -1,0 +1,40 @@
+//Defaul container styling
+.container0 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh
+}
+
+;
+
+
+// Diff Container in Human Flight and Falcon 9
+
+.container-contact {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 60vh;
+    padding-bottom: 200px
+
+}
+
+;
+
+.semi-container1 {
+    min-height: 30vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+;
+
+//Arrow styling (Falcon 9 and Human Spaceflight pages)
+.arrow{
+    width: 100px;
+}

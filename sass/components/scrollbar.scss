@@ -1,0 +1,14 @@
+/* Alterações da Scrollbar*/
+body::-webkit-scrollbar {
+    background-color: #000000;
+    width: 10px;
+}
+
+;
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.1500);
+    border-radius: 10px;
+}
+
+;

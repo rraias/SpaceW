@@ -1,0 +1,282 @@
+@charset "UTF-8";
+* {
+  color: white !important;
+}
+
+.container0 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.container-contact {
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 60vh;
+  padding-bottom: 200px;
+}
+
+.semi-container1 {
+  min-height: 30vh;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.arrow {
+  width: 100px;
+}
+
+.text {
+  padding-top: 10%;
+}
+.text h1 {
+  font-weight: 400;
+}
+
+nav {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.img {
+  width: 150px;
+}
+
+@media (max-width: 426px) {
+  .img {
+    max-width: 120px;
+    height: auto;
+  }
+}
+/* Footer */
+footer {
+  background-color: black;
+  height: 100px;
+}
+
+/* Media Queries*/
+@media (max-width: 426px) {
+  footer > p {
+    font-size: 12px;
+  }
+}
+.btn-lg {
+  padding: 10px 20px;
+}
+.btn-lg:hover {
+  color: black !important;
+}
+
+@media (max-width: 488px) {
+  .btn-lg {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+/* Alterações da Scrollbar*/
+body::-webkit-scrollbar {
+  background-color: #000000;
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+}
+
+.container1 {
+  background-image: url(../images/home/01.jpg);
+}
+
+.container2 {
+  background-image: url(../images/home/02.jpg);
+}
+
+.container3 {
+  background-image: url(../images/home/03.gif);
+}
+
+.container4 {
+  background-image: url(../images/home/04.jpg);
+}
+
+.home-title {
+  max-width: 550px;
+}
+
+.home-subtitle {
+  max-width: 650px;
+}
+
+@media (max-width: 1120px) {
+  .container3 {
+    padding-top: 10%;
+  }
+}
+@media (max-width: 500px) {
+  .container2,
+.container3,
+.container4 {
+    padding-top: 25%;
+  }
+}
+.container10 {
+  background-image: url(../../images/falcon9/01.jpg);
+}
+
+.container11 {
+  background-image: url(../../images/falcon9/02.jpg);
+}
+
+.container12 {
+  background-color: black;
+}
+
+.container13 {
+  background-image: url(../../images/falcon9/08.jpg);
+}
+
+.table-container1 {
+  background-image: url(../../images/falcon9/03.jpg);
+}
+
+.table-container2 {
+  background-image: url(../../images/falcon9/04.jpg);
+}
+
+.table-container3 {
+  background-image: url(../../images/falcon9/05.jpg);
+}
+
+.table-container4 {
+  background-image: url(../../images/falcon9/06.jpg);
+}
+
+.table-container5 {
+  background-image: url(../../images/falcon9/07.jpg);
+}
+
+.table-container {
+  padding-top: 10%;
+}
+
+.table-container > * {
+  width: 550px;
+  margin-left: 13%;
+}
+
+.carousel-item img {
+  max-height: 100vh;
+  min-height: 50vh;
+}
+
+.falcon-text {
+  line-height: 3rem;
+  width: 550px;
+  padding-top: 10%;
+}
+
+@media (max-width: 1395px) {
+  .table-container > * {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 600px) {
+  .table-container > * {
+    width: auto;
+  }
+  .falcon-text {
+    width: auto;
+    line-height: 2rem;
+  }
+}
+/* Containers background-images*/
+.container5 {
+  background-image: url(../../images/humanFlight/01.jpg);
+}
+
+.container6 {
+  background-image: url(../../images/humanFlight/02.jpg);
+}
+
+.container7 {
+  background-image: url(../../images/humanFlight/03.jpg);
+}
+
+.container8 {
+  background-image: url(../../images/humanFlight/04.jpg);
+}
+
+.container9 {
+  background-image: url(../../images/humanFlight/05.jpg);
+}
+
+h1.title {
+  padding-top: 200px;
+  font-size: 7rem;
+}
+h1.subtitle {
+  font-size: 2rem;
+}
+
+.container-title {
+  padding-top: 250px;
+}
+
+.title-right > * {
+  margin-left: 60%;
+}
+
+.title-left > * {
+  margin-right: 60%;
+}
+
+@media (max-width: 780px) {
+  h1.title {
+    font-weight: 800;
+    font-size: 5rem;
+  }
+  h1.subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  h1.announce-text {
+    font-size: 1rem;
+  }
+  .title-right > * {
+    margin-left: 0%;
+  }
+  .title-left > * {
+    margin-right: 0%;
+  }
+}
+@media (max-width: 570px) {
+  h1.title {
+    font-weight: 800;
+    font-size: 3rem;
+  }
+  h1.subtitle {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  h1.announce-text {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 350px) {
+  h1.title {
+    font-weight: 800;
+    font-size: 2rem;
+  }
+  h1.subtitle {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

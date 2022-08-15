@@ -1,0 +1,14 @@
+//Buttons style
+.btn-lg{
+    padding: 10px 20px;
+    &:hover{
+        color: black !important;
+    }
+}
+
+@media(max-width: 488px){
+    .btn-lg{
+        padding: 10px;
+        font-size: 14px;
+    }
+}

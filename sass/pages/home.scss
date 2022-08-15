@@ -1,0 +1,55 @@
+// Containers background-images
+.container1 {
+    background-image: url(../images/home/01.jpg);
+}
+
+;
+
+.container2 {
+    background-image: url(../images/home/02.jpg);
+
+}
+
+;
+
+.container3 {
+    background-image: url(../images/home/03.gif);
+}
+
+;
+
+.container4 {
+    background-image: url(../images/home/04.jpg);
+}
+
+;
+
+.home-title {
+    max-width: 550px
+}
+
+;
+
+.home-subtitle {
+    max-width: 650px
+}
+
+
+// Media Queries
+@media(max-width: 1120px) {
+    .container3 {
+        padding-top: 10%
+    }
+}
+
+;
+
+@media(max-width: 500px) {
+    .container2,
+    .container3,
+    .container4 {
+        padding-top: 25%
+    }
+}
+
+;

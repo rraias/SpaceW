@@ -1,0 +1,23 @@
+//Header Font styling
+nav {
+    font-size: 14px;
+    font-weight: $font-weight-nav;
+}
+
+;
+
+//Header img size
+.img {
+    width: 150px;
+}
+
+;
+
+//Media Queries
+@media(max-width: 426px) {
+
+    .img {
+        max-width: 120px;
+        height: auto;
+    }
+}

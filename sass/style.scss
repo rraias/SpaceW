@@ -1,0 +1,27 @@
+//Variables imports
+
+@import "./variables/colors/colors.scss"; //Import of colors variables
+
+@import "./variables/common/common.scss"; //Import of common variables
+
+@import "./variables/typography/typography.scss"; //Import of Typography variables
+
+
+//Components imports
+
+@import "./components/header.scss"; //Import of header component
+
+@import "./components/footer.scss"; //Import of footer component
+
+@import "./components/buttons.scss"; //Import of buttons component
+
+@import "./components/scrollbar.scss"; //Import of Scrollbar Style
+
+
+//Page imports
+
+@import "./pages/home.scss"; //Import of home page
+
+@import "./pages/falcon-9.scss"; //Import of falcon-9 page
+
+@import "./pages/human-flight.scss" //Import of Human-flight page

@@ -1,0 +1,132 @@
+/* Containers background-images*/
+
+.container5 {
+    background-image: url(../../images/humanFlight/01.jpg);
+}
+
+;
+
+.container6 {
+    background-image: url(../../images/humanFlight/02.jpg);
+}
+
+;
+
+.container7 {
+    background-image: url(../../images/humanFlight/03.jpg);
+}
+
+;
+
+.container8 {
+    background-image: url(../../images/humanFlight/04.jpg);
+}
+
+;
+
+.container9 {
+    background-image: url(../../images/humanFlight/05.jpg);
+}
+
+;
+
+//Text spacement and size
+
+h1 {
+    &.title {
+        padding-top: 200px;
+        font-size: 7rem;
+
+    }
+
+    &.subtitle {
+        font-size: 2rem;
+    }
+}
+
+;
+
+.container-title {
+    padding-top: 250px;
+}
+
+;
+
+.title-right>* {
+    margin-left: 60%;
+}
+
+;
+
+.title-left>* {
+    margin-right: 60%;
+}
+
+//Media Queries
+
+@media(max-width: 780px) {
+    h1 {
+        &.title {
+            font-weight: 800;
+            font-size: 5rem;
+
+        }
+
+        &.subtitle {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+
+        &.announce-text {
+            font-size: 1rem;
+        }
+    }
+
+    .title-right>* {
+        margin-left: 0%;
+    }
+
+    ;
+
+    .title-left>* {
+        margin-right: 0%;
+    }
+}
+
+;
+
+@media(max-width: 570px) {
+    h1 {
+        &.title {
+            font-weight: 800;
+            font-size: 3rem;
+
+        }
+
+        &.subtitle {
+            font-size: 1rem;
+            font-weight: 300;
+        }
+
+        &.announce-text {
+            font-size: 0.75rem;
+        }
+    }
+}
+
+;
+
+@media(max-width: 350px) {
+    h1 {
+        &.title {
+            font-weight: 800;
+            font-size: 2rem;
+
+        }
+
+        &.subtitle {
+            font-size: 1rem;
+            font-weight: 300;
+        }
+    }
+}

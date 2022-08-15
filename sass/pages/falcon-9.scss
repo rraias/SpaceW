@@ -1,0 +1,110 @@
+// Containers background-image
+
+.container10 {
+    background-image: url(../../images/falcon9/01.jpg);
+}
+
+;
+
+.container11 {
+    background-image: url(../../images/falcon9/02.jpg);
+}
+
+;
+
+.container12 {
+    background-color: black;
+}
+
+;
+
+.container13 {
+    background-image: url(../../images/falcon9/08.jpg);
+}
+
+;
+
+//First carousel styling and images
+
+.table-container1 {
+    background-image: url(../../images/falcon9/03.jpg);
+}
+
+;
+
+.table-container2 {
+    background-image: url(../../images/falcon9/04.jpg);
+}
+
+;
+
+.table-container3 {
+    background-image: url(../../images/falcon9/05.jpg);
+}
+
+;
+
+.table-container4 {
+    background-image: url(../../images/falcon9/06.jpg);
+}
+
+;
+
+.table-container5 {
+    background-image: url(../../images/falcon9/07.jpg);
+}
+
+;
+
+.table-container {
+    padding-top: 10%
+}
+
+;
+
+.table-container > * {
+    width: 550px;
+    margin-left: 13%
+}
+
+;
+
+//Second Carousel Styling and Images
+.carousel-item img{
+    max-height: 100vh;
+    min-height: 50vh
+}
+
+;
+
+//Falcon 9 description styling (Container 11)
+.falcon-text {
+    line-height: 3rem;
+    width: 550px;
+    padding-top: 10%
+}
+
+;
+
+//Media Queries
+@media(max-width:1395px){
+
+    .table-container>* {
+        margin-left: 5%
+    }
+}
+
+;
+
+@media(max-width:600px){
+
+    .table-container>* {
+        width: auto
+    }
+
+    ;
+    .falcon-text {
+        width: auto;
+        line-height: 2rem;
+    }
+}
